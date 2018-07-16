@@ -30,9 +30,9 @@ It is interesting to see the how the execution time, cost and waypoint count cha
 ![A* grid waypoint count](./images/grid_waypoints_count.png)
 
 Videos of the drone flying in the simulator:
-- [Grid Goal 1](./videos/grid_01.mov)
-- [Grid Goal 2](./videos/grid_02.mov)
-- Grid Goal 3: [First part](./videos/grid_03_1.mov) and [second part](./videos/grid_03_2.mov)
+- [Grid Goal 1](./videos/grid_01.mov) https://youtu.be/HHhh5H6wCD0
+- [Grid Goal 2](./videos/grid_02.mov) https://youtu.be/0vPo0aN2AtU
+- Grid Goal 3: [First part](./videos/grid_03_1.mov) https://youtu.be/SFV4t85CDhE  and [second part](./videos/grid_03_2.mov) https://youtu.be/lMm_s7FPBhA
 
 In addition to that implementation using a grid, the following code use a graph to search for the path to the goal:
 
@@ -46,9 +46,9 @@ Here are some examples of trajectories found/no found in this code:
 It is interesting to see how much faster this algorithm is compared to an A* on a grid. It is also interesting to see the path was not found in the upper-right position in this case. Another characteristic is waypoint count, in this case, was higher than the one found with A* on a grid.
 
 Videos of the drones flying in the simulator with this trajectories:
-- [Graph Goal 1](./videos/graph_01.mov)
-- [Graph Goal 2](./videos/graph_02.mov)
-- Graph Goal 3: [First part](./videos/graph_03_1.mov) and [second part](./videos/graph_03_2.mov)
+- [Graph Goal 1](./videos/graph_01.mov) https://youtu.be/er-AFYpbxAA
+- [Graph Goal 2](./videos/graph_02.mov) https://youtu.be/kw0IG57yyPU
+- Graph Goal 3: [First part](./videos/graph_03_1.mov) https://youtu.be/FbgcGsxXyVM and [second part](./videos/graph_03_2.mov) https://youtu.be/cV8BZvxrnJ8
 
 # Run the Project
 
@@ -157,6 +157,6 @@ The path was pruned (./motion_planning.py#L162) using collinearity([collinearity
 ### This is simply a check on whether it all worked. Send the waypoints, and the autopilot should fly you from start to goal!
 
 The following are links to videos directing the drone to different locations:
-- [Grid Goal 1](./videos/grid_01.mov)
-- [Grid Goal 2](./videos/grid_02.mov)
-- Grid Goal 3: [First part](./videos/grid_03_1.mov) and [second part](./videos/grid_03_2.mov)
+- [Grid Goal 1](./videos/grid_01.mov) https://youtu.be/HHhh5H6wCD0
+- [Grid Goal 2](./videos/grid_02.mov) https://youtu.be/0vPo0aN2AtU
+- Grid Goal 3: [First part](./videos/grid_03_1.mov) https://youtu.be/SFV4t85CDhE and [second part](./videos/grid_03_2.mov) https://youtu.be/lMm_s7FPBhA
